@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&display=swap');
 
-@media (max-width: 1000px) {
+@media (min-width: 500px) {
   .countries-container {
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    font-family: 'Chivo Mono', monospace;
   }
 }
 
+
+
 .countries-container {
+  padding: 80px 20px 20px 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 15px;
   font-family: 'Chivo Mono', monospace;
+  /* background-color: var(--bg-color); */
 }
