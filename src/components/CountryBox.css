@@ -32,7 +32,7 @@ p {
 }
 
 .container:hover {
-    box-shadow: 5px 5px 10px #999;
+    box-shadow: 2px 2px 5px #999;
     transform: scale(1.04);
     background-color: #313131;
 }

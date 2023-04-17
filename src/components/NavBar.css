@@ -5,3 +5,11 @@
     height: 65px;
     background-color: black;
 }
+
+.d-flex {
+    color: white;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #ffffff;
+  }
