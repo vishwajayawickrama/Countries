@@ -1,21 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&display=swap');
 
-/* @media (max-width: 500px) {
+
+@media (min-width: 0px) {
   .countries-container {
+    padding: 100px 1em 1em 1em;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
+    grid-template-columns: 1fr;
+    gap: 1em;
     font-family: 'Chivo Mono', monospace;
   }
-} */
+}
+@media (min-width: 480px) {
+  .countries-container {
+    padding: 100px 1em 1em 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    font-family: 'Chivo Mono', monospace;
+  }
+}
+@media (min-width: 768px) {
+  .countries-container {
+    padding: 100px 1em 1em 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    font-family: 'Chivo Mono', monospace;
+  }
+}
 
 
+@media (min-width: 1280px) {
+  .countries-container {
+    padding: 100px 1em 1em 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    font-family: 'Chivo Mono', monospace;
+  }
 
-.countries-container {
-  padding: 100px 20px 20px 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 15px;
-  font-family: 'Chivo Mono', monospace;
-  /* background-color: black; */
 }
